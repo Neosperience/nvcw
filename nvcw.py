@@ -2,6 +2,8 @@
 
 # Simple tool that sends nvidia-smi info to AWS CloudWatch
 
+from __future__ import division
+
 import json
 from datetime import datetime
 import time
